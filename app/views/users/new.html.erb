@@ -1,7 +1,7 @@
 <% provide(:title, "Sign Up") %>
-<h1>Sign Up</h1>
+<h1 class="mt-3">Sign Up</h1>
 
-<div class="row">
+<div class="row justify-content-md-center">
 	<div class="col-md-6 col-md-offset-3">
 		<%= form_with(model: @user, local: true) do |f| %>
 			<%= render 'shared/error_messages' %>
