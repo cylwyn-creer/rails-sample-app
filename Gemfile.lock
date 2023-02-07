@@ -98,6 +98,8 @@ GEM
       reline (>= 0.3.1)
     erubi (1.12.0)
     execjs (2.8.1)
+    faker (3.1.1)
+      i18n (>= 1.8.11, < 2)
     ffi (1.15.5)
     formatador (1.1.0)
     globalid (1.1.0)
@@ -270,6 +272,9 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    will_paginate (3.3.1)
+    will_paginate-bootstrap-style (0.2.4)
+      will_paginate (~> 3.0, >= 3.0.0)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.6.6)
@@ -283,6 +288,7 @@ DEPENDENCIES
   bootstrap
   capybara
   debug
+  faker
   guard
   guard-minitest
   importmap-rails
@@ -306,6 +312,8 @@ DEPENDENCIES
   tzinfo-data
   web-console
   webdrivers
+  will_paginate
+  will_paginate-bootstrap-style
 
 RUBY VERSION
    ruby 3.0.0p0

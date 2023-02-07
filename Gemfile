@@ -12,6 +12,13 @@ gem "bcrypt", "~> 3.1.7"
 # Use bootstrap
 gem "bootstrap"
 
+# Use faker
+gem "faker"
+
+# Use bootstrap utilities for pagination
+gem "will_paginate"
+gem "will_paginate-bootstrap-style"
+
 # Use jquery
 gem "jquery-rails"
 
